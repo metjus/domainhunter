@@ -1,0 +1,24 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*credentials*.json
+*secrets*.json
+
+# Local browser sessions and runtime data
+user-data/
+chrome-profile/
+logs/
+*.log
+
+# Compiled binaries
+*.exe
+*.dll
+*.test
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
